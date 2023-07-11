@@ -1,0 +1,20 @@
+//<!DOCTYPE html>
+<html>
+<head>
+    <title>Texto con formato</title>
+    <style>
+        p {
+            //font-family: Arial, sans-serif;
+            //font-size: 16px;
+            //line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <p>El cielo estaba nublado y me recordaba que debí hacer caso al aviso de tormenta que dieron esta mañana en la televisión.</p>
+    <p>Bueno, lo hecho, hecho está, ya era tarde para lamentarse.</p>
+
+    <script>
+    </script>
+</body>
+</html>

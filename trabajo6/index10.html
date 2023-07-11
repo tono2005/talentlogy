@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orden de llegada de corredores</title>
+</head>
+<body>
+    <h1>Orden de llegada de corredores</h1>
+    <ol id="llegada">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <script>
+        var tiempo1 = prompt("Tiempo del corredor 1:");
+        var tiempo2 = prompt("Tiempo del corredor 2:");
+        var tiempo3 = prompt("Tiempo del corredor 3:");
+
+        var llegada = document.getElementById("llegada");
+        llegada.children[tiempo1-1].innerHTML = "Corredor 1";
+        llegada.children[tiempo2-1].innerHTML = "Corredor 2";
+        llegada.children[tiempo3-1].innerHTML = "Corredor 3";
+    </script>
+</body>
+</html>

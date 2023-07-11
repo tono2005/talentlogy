@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lenguajes de Programación</title>
+</head>
+<body>
+  <h1>Lenguajes de Programación</h1>
+  <ul id="lenguajes">
+  </ul>
+
+  <script>
+    var lenguajes = ["JavaScript", "HTML", "CSS", "Python", "Java"];
+
+    var listaLenguajes = document.getElementById("lenguajes");
+
+    for (var i = 0; i < lenguajes.length; i++) {
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(lenguajes[i]));
+      listaLenguajes.appendChild(li);
+    }
+  </script>
+</body>
+</html>

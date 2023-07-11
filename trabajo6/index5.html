@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Principal</title>
+</head>
+<body>
+  <h1>Página Principal</h1>
+
+  <a id="secundariaLink" href="#">Ir a la Página Secundaria</a>
+
+  <script>
+    let mensajePrincipal = "¡Bienvenido a la página principal!";
+    let colorPrincipal = "blue";
+
+    const secundariaLink = document.getElementById('secundariaLink');
+
+    secundariaLink.addEventListener('click', () => {
+      window.location.href = 'pagina_secundaria.html';
+    });
+
+    secundariaLink.style.color = colorPrincipal;
+
+    console.log(mensajePrincipal);
+  </script>
+</body>
+</html>
+
+
+Página secundaria (`pagina_secundaria.html`):
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Secundaria</title>
+</head>
+<body>
+  <h1>Página Secundaria</h1>
+
+  <a id="principalLink" href="#">Volver a la Página Principal</a>
+
+  <script>
+    let mensajeSecundaria = "¡Bienvenido a la página secundaria!";
+    let colorSecundaria = "red";
+
+    const principalLink = document.getElementById('principalLink');
+
+    principalLink.addEventListener('click', () => {
+      window.location.href = 'index.html';
+    });
+
+    principalLink.style.color = colorSecundaria;
+
+    console.log(mensajeSecundaria);
+  </script>
+</body>
+</html>

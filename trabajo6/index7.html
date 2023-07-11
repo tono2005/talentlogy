@@ -1,0 +1,1 @@
+<a href="mailto:ejemplo@correo.com">Enviar correo</a>
