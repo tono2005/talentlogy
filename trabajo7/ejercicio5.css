@@ -1,0 +1,10 @@
+#miBloque {
+    width: 400px;
+    height: 150px;
+    background-color: #FFC0CB;
+    border: 4px dotted #000;
+    margin: 50px;
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 24px;}

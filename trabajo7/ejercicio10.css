@@ -1,0 +1,29 @@
+.card {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.title {
+  color: white;
+  background-color: grey;
+  padding: 8px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.body {
+  font-style: italic;
+  text-align: justify;
+  padding: 8px;
+  text-align: center;
+}
+
+.foot {
+  color: white;
+  background-color: lightgrey;
+  padding: 8px;
+  text-align: center;
+}
+

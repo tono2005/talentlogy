@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+
+
+}
+.curriculum{
+    border: 2px solid black;
+    flex-grow: 2;
+    margin: 10px;
+    padding: 20px;
+}
+.formacion li ,.experiencia li{
+    color:blue
+}
+span{
+    font-weight: bold;
+    color:black
+}

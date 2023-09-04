@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio12.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+</head>
+<body>
+    <!-- menu encabezado -->
+<div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">ANTONIO</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+
+        </div>
+    </header>
+</div>
+
+<!-- seccion inicio -->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="img/toño.png">
+        </div>
+        <h1>ANTONIO HERNANDEZ</h1>
+        <h2>Ingeniero de Sotfware</h2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- seccion sobre mi -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p><span>Hola, soy Antonio Hernadnez.</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi beatae, dicta quam dolor voluptatum eaque odit temporibus, quisquam ipsa aperiam nulla sapiente nobis aspernatur odio atque, rerum incidunt laboriosam assumenda.</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Datos personales</h3>
+                <ul>
+                    <li >
+                        <strong>Cumpleaños</strong>
+                        03-11-2005
+                    </li>
+                    <li>
+                        <strong>Telefono</strong>
+                        302 8360029
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        cw@toño.com
+                    </li>
+                    <li>
+                        <strong>Website</strong>
+                        www.toño.com
+                    </li>
+                    <li>
+                        <strong>Direccion</strong>
+                        Calle 26 #0-67 San Rafael
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>FREELANCE</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </div>
+</section>
+
+<!-- seccion skills -->
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>SKILLS</h2>
+        <div class="fila">
+            <!-- Techical skill -->
+            <div class="col">
+                <h3>Techical skills</h3>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Photoshop</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Wordpress</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>81%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>drupa</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- professional skill -->
+            <div class="col">
+                <h3>professional skills</h3>
+                <div class="skill">
+                    <span>comunicacion</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>trabajo en equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>dedicacion</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>proyect management</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>94%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- seccion curriculum -->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educacion</h3>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de  Oxford</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci eum minima totam libero autem, provident at expedita ipsa deserunt molestias consequatur? Obcaecati, excepturi in ipsa impedit dolor vitae eius?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de  Oxford</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci eum minima totam libero autem, provident at expedita ipsa deserunt molestias consequatur? Obcaecati, excepturi in ipsa impedit dolor vitae eius?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Arte y Multimedia</h4>
+                    <span class="casa">Universidad de  Oxford</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci eum minima totam libero autem, provident at expedita ipsa deserunt molestias consequatur? Obcaecati, excepturi in ipsa impedit dolor vitae eius?</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col derecha">
+                <h3>Experencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañia</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci eum minima totam libero autem, provident at expedita ipsa deserunt molestias consequatur? Obcaecati, excepturi in ipsa impedit dolor vitae eius?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañia</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci eum minima totam libero autem, provident at expedita ipsa deserunt molestias consequatur? Obcaecati, excepturi in ipsa impedit dolor vitae eius?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front Developer</h4>
+                    <span class="casa">Nombre de Compañia</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod adipisci eum minima totam libero autem, provident at expedita ipsa deserunt molestias consequatur? Obcaecati, excepturi in ipsa impedit dolor vitae eius?</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- seccio portfolio -->
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/foto1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/foto2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/foto3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/foto4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/foto5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/foto6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- seccion contacto -->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <div class="col">
+                <input type="text" placeholder="Tu Nombre">
+                <input type="text" placeholder="Numero telefonico">
+                <input type="text" placeholder="Direccion de correo">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="img/ubicacion.jpg" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Cl 26, Cúcuta, Norte de Santander
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile"></i>
+                            Llamanos: 302 8360029
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: cw@toño.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-solid fa-rss"></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="ejercicio3.css">
+  <title>Ejemplo de lista con elementos importantes</title>
+</head>
+<body>
+  <div class="destacado">
+    <h1>Lista de elementos importantes:</h1>
+    <ul>
+      <li>Elemento 1</li>
+      <li class="importante">Elemento 2</li>
+      <li class="importante">Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+  </div>
+
+  <script>
+    document.querySelectorAll('.destacado .importante li').forEach(function(elemento) {
+      elemento.style.color = 'red';
+    });
+  </script>
+</body>
+</html>

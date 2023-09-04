@@ -1,0 +1,11 @@
+.btn-a{
+    margin: 35px 0px;
+    display: inline-block;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-decoration: none;
+}
+.btn-a:hover{
+    background-color: chartreuse;
+}
