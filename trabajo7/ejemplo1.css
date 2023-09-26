@@ -1,0 +1,561 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  background-color: #000;
+  color: white;
+}
+body {
+  min-height: 100%;
+}
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+span {
+  color: hsl(209, 84%, 27%);
+}
+
+.grid-container > * {
+  padding: 10px;
+  font-size: 18px;
+}
+.topheader {
+  grid-area: topheader;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  text-align: center;
+}
+.containerCenter {
+  grid-area: containerCenter;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+.containerLeft {
+  grid-area: containerLeft;
+  border-right: 1px solid white;
+}
+.containerRight {
+  grid-area: containerRight;
+  border-left: 1px solid white;
+}
+.f1 {
+  grid-area: f1;
+  background-color: rgb(25, 160, 243);
+}
+.f3 {
+  grid-area: f3;
+  background-color: rgb(25, 160, 243);
+  position: relative;
+}
+
+/* @media(min-whidth:900px){ */
+.grid-container {
+  display: grid;
+  grid-template:
+    "containerLeft  topheader        contai67788nerRight" 100px
+    "containerLeft  containerCenter  containerRight" auto
+    "f1             footer           f3" 100px/
+    28% 44% 28%;
+}
+/* } */
+/* Seccion media parte superior */
+/* menu de navegación */
+.topnav {
+  display: grid;
+  padding: 10px;
+  margin: 0 auto;
+}
+.topnavBuscador {
+  position: relative;
+}
+.contenedeorBuscador {
+  display: block;
+}
+input {
+  padding-right: 100px;
+  border-radius: 10px 0 0 10px;
+  border: 10px;
+  outline: none;
+  padding-left: 20px;
+  height: 25px;
+}
+.topnavBotonBuscar {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  border: 1px solid white;
+  background-color: whithe;
+  margin: auto;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.menu a {
+  line-height: 50px;
+}
+
+.open-menu,
+.close-menu {
+  display: none;
+}
+/* Seccion Izquierda */
+
+.containerLeft {
+  display: grid;
+  padding: 20px;
+}
+.containerGridLeft {
+  display: gird;
+}
+.icono i {
+  display: grid;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.icono #explorar {
+  position: absolute;
+
+  top: 65px;
+  left: 100px;
+}
+.icono #configuracion {
+  position: absolute;
+  top: 113px;
+  left: 100px;
+}
+/* Sección Derecha */
+.tarjeta {
+  width: 350px;
+  height: 300px;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 15px;
+  text-align: justify;
+}
+#tituloTarjeta {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+#condiciones {
+  width: 300px;
+  margin-left: 20px;
+  opacity: 50%;
+  text-align: justify;
+  font-size: 15px;
+  margin-top: 20px;
+}
+#boton {
+  background-color: white;
+  color: black;
+  width: 280px;
+  min-height: 13%;
+  border-radius: 25px;
+}
+
+#boton:hover {
+  background-color: darkgrey;
+  cursor: pointer;
+}
+/* Seccion del medio */
+.mundial {
+  display: inline;
+  position: relative;
+}
+.vivo {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+.marcador {
+  display: grid;
+  margin-top: 15px;
+}
+.japon {
+  background-color: #000555;
+  display: flex;
+  padding-left: 20px;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+.croacia {
+  background-color: #171796;
+  display: flex;
+  padding-left: 20px;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+.gol {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+}
+#tendencia {
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 50%;
+}
+#nombre {
+  font-size: x-large;
+  margin-top: 1px;
+}
+#directo {
+  color: #b4115c;
+  font-size: 12px;
+  margin-top: 0;
+}
+/* Sección del footer */
+footer {
+  display: grid;
+  grid-area: footer;
+  background-color: rgb(25, 160, 243);
+  color: white;
+  padding: 1.5rem;
+  border: none;
+}
+.parrafosFooter {
+  display: grid;
+  text-align: justify;
+  padding: 20px;
+}
+.botonesFooter {
+  display: inline;
+  gap: 1rem;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+#botonIniciar {
+  background-color: transparent;
+  color: white;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 110px;
+  height: 35px;
+  cursor: pointer;
+}
+#botonRegistrarse {
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* media query para tablets */
+@media (max-width: 1024px) {
+  .grid-container {
+    display: grid;
+    grid-template:
+      "topheader       topheader" 100px
+      "containerLeft   containerLeft" auto
+      "containerRight   containerCenter" auto
+      "footer          f3" 100px/
+      50% 50%;
+  }
+  .topheader {
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+
+  .containerRight {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+  }
+  .f1 {
+    grid-area: none;
+    display: none;
+  }
+
+  /* Segunda seccion media */
+  .containerLeft {
+    display: inline-flex;
+    padding: auto;
+  }
+  .containerGridLeft {
+    display: inline-flex;
+    margin: 0 auto;
+  }
+  .icono i {
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    padding: 0px 80px;
+  }
+  i {
+    align-items: center;
+  }
+  .tituloNavegacion {
+    display: inline-flex;
+  }
+  .icono #explorar {
+    margin: none;
+    display: inline-flex;
+    position: absolute;
+    top: 125px;
+    left: 420px;
+    padding: 5px;
+  }
+  .icono #configuracion {
+    display: inline-flex;
+    position: absolute;
+    top: 125px;
+    left: 590px;
+    padding: 5px;
+  }
+
+  /* Seccion media número 3 */
+
+  .tarjeta {
+    margin-top: 25px;
+    width: 300px;
+    height: 300px;
+    font-size: 14px;
+  }
+  .tarjeta,
+  h2 {
+    padding-top: 10px;
+  }
+  .tarjeta,
+  P {
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
+  #tituloTarjeta {
+    font-size: 20px;
+  }
+  #condiciones {
+    width: 280px;
+    font-size: 14px;
+  }
+  #boton {
+    width: 250px;
+  }
+  .japon,
+  .croacia,
+  .gol {
+    font-size: 16px;
+  }
+  .img {
+    height: 50px;
+    width: 50px;
+  }
+
+  #nombre {
+    font-size: 18px;
+  }
+  /* Sección del footer */
+
+  .parrafosFooter {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .botonesFooter {
+    top: 25px;
+    left: 130px;
+  }
+
+  #botonIniciar,
+  #botonRegistrarse {
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+  }
+}
+/*media query para dispositivos mobiles*/
+
+@media (max-width: 426px) {
+  .grid-container {
+    display: grid;
+    grid-template:
+      "topheader" auto
+      "containerLeft" auto
+      "containerCenter" auto
+      "containerRight" auto
+      "footer" auto
+      "f3" auto/
+      100%;
+  }
+  .topheader {
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+
+  .containerRight {
+    border-top: 1px solid white;
+    border-right: none;
+  }
+  .f1 {
+    grid-area: none;
+    display: none;
+  }
+  /* Seccion media parte superior */
+  .menu {
+    flex-direction: column; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center; 
+    background-color: #333232;
+
+    height: 100%;
+    overflow-y: auto; 
+    opacity: 0;
+    pointer-events: none; 
+    transition: opacity 0.2s; 
+  }
+  .menu li {
+    padding: 0;
+  }
+  .menu a {
+    line-height: 60px;
+    color: white;
+  }
+  .open-menu,
+  .close-menu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .close-menu {
+    align-self: flex-end;
+    padding: 20px;
+  }
+
+  .menu_opened {
+    opacity: 1;
+    pointer-events: all; 
+  }
+  /* Segunda seccion media */
+  .containerLeft {
+    display: inline-flex;
+    padding: none;
+    border-right: none;
+  }
+  .containerGridLeft {
+    display: inline-flex;
+  }
+  .icono i {
+    display: inline-flex;
+    height: 10px;
+    width: 10px;
+    position: none;
+    padding: 20px;
+  }
+  .icono #explorar {
+    position: none;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+  }
+  .icono #configuracion {
+    position: none;
+    opacity: 0;
+    top: 0px;
+    left: 0;
+  }
+  /* Seccion media número 3 */
+
+  .containerCenter {
+    grid-area: containerCenter;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+  }
+
+  .japon,
+  .croacia,
+  .gol {
+    font-size: 16px;
+  }
+  .img {
+    height: 15px;
+    width: 15px;
+  }
+
+  #nombre {
+    font-size: 20px;
+  }
+  /* Seccion Número 4 */
+
+  .containerRight {
+    margin: 0 auto;
+    border: none;
+  }
+  .tarjeta {
+    margin-top: 2px;
+    width: 300px;
+    height: 300px;
+    font-size: 14px;
+  }
+  .tarjeta,
+  h2 {
+    padding-top: 10px;
+  }
+  .tarjeta,
+  P {
+    padding-bottom: 4px;
+    padding-top: 4px;
+  }
+  #tituloTarjeta {
+    font-size: 20px;
+  }
+  #condiciones {
+    width: 230px;
+    font-size: 14px;
+  }
+  #boton {
+    width: 260px;
+  }
+  /* Sección del footer */
+  .footer {
+    padding-bottom: 0px;
+  }
+  .parrafosFooter {
+    padding-bottom: 0px;
+  }
+  .f3 {
+    display: grid;
+    grid-area: f3;
+    height: 65px;
+  }
+
+  .botonesFooter {
+    top: 25px;
+    left: 100px;
+    padding-top: 0px;
+  }
+}

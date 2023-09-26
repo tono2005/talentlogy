@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pagina Web</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="indexBootstrapejemplo.css">
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img src="img/logo.png" style="width: 20%;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row d-flex h-100">
+            <div class="col-sm-6 text-center justify-content-center align-self-center">
+              <h1>
+                I, Robot
+              </h1>
+              <p>
+                Fue un escritor asombrosamente rápido y compulsivo, llegó a escribir alrededor de 500 libros, de los cuáles se destacan sagas de ficción, literatura antigua y divulgación de ciencia.</p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                Read More
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/product (1).jpg" class="img-fluid d-none d-sm-block">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NEWSLETTER  -->
+    <section id="newsletter" class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <input type="text" class="form-control form-control-lg" placeholder="Enter your Name">
+          </div>
+          <div class="col-md-4">
+            <input type="email" class="form-control form-control-lg" placeholder="Enter your Email">
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-primary btn-lg btn-block">
+              Suscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3>Característica 1</h3>
+                <p>
+                Un robot no puede dañar a un ser humano ni, por inacción, permitir que un ser humano sufra daño.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h3>Caracteristica 2</h3>
+                <p>
+                Un robot debe obedecer las órdenes que le den los seres humanos, excepto cuando dichas órdenes entren en conflicto con la Primera Ley.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3>Caracteristica 3</h3>
+                <p>
+                Un robot debe proteger su propia existencia siempre que dicha protección no entre en conflicto con la Primera o la Segunda Ley.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body">
+                <h3>Caracteristica 4</h3>
+                <p>
+                Un robot debe proteger su existencia a toda costa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="m5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="m-5">
+            <h3>¿Por qué este producto?</h3>
+            <p>
+            Con estas tres sencillas directivas, Isaac Asimov formuló las leyes que rigen el comportamiento de los robots. En Yo, robot, Asimov narra el desarrollo del robot desde sus orígenes primitivos en el presente hasta su máxima perfección en un futuro no muy lejano, un futuro en el que la propia humanidad puede volverse obsoleta.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACCORDION -->
+    <section class="container text-center p-5">
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Qué lugar ocupa Susan como mujer en estos relatos? #1
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+              Por más que Susan Calvin es una de las grandes protagonistas de Yo, Robot, y esto establece una diferencia con buena parte de la literatura de género de la época, marcada por el patriarcado y sus arquetípicos héroes masculinos, no necesariamente tiene una mirada feminista del rol de la mujer en la ciencia y las corporaciones.
+              Calvin se muestra como una mujer solitaria, que solo ama su trabajo y a los robots. Salvo por el cuento en que parece develarse que está enamorada de Milton Ashe, nada sabemos de la vida privada de Susan.</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Qué relación puede tener el título del libro con los relatos que lo contienen? #2
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+              A Isaac Asimov el título Yo, Robot no le agradaba. Quería, en su lugar, llamarlo Mente y hierro. Y es que, en el libro, muchos humanos, como la señora Weston en "Robbie", creen que los robots son solo inteligencia y metal, mientras que Asimov demuestra que son mucho más que eso: sus robots temen, se avergüenzan, se alegran.</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  ¿Podemos decir que Yo, Robot es un texto tecnofóbico? #3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+              Para nada. A pesar de que lo que se establece en cada cuento es la posible amenaza que implica la creación de seres capaces de pensar (si por pensar entendemos encadenar razonamientos), al final del día, la peor amenaza para los seres humanos son ellos mismos. Los robots no dejan de cumplir con las Leyes de la Robótica, ese código ético y moral impreso en su constitución. Y son, como los seres humanos, perfectibles. Por ende, no es la tecnología el problema para Asimov, sino el comportamiento humano.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="text-center team">
+      <div class="container p-5">
+        <h1 class="text-center text-white">Personajes</h1>
+        <p class="text-white">
+          Los principales personajes de la película "Yo, robot" son:
+          - Alex Proyas (director)
+          - Will Smith (Detective Del Spooner)
+          - Bridget Moynahan (Dr. Susan Calvin)
+          - Bruce Greenwood (Dr. Alfred Lanning)
+          - James Cromwell (Víctor Kaleb)
+          - Chi McBride (Lt. Jack Robertson)
+          - Alan Tudyk (Gnut)
+          - Lindsay Duncan (Rhoda Williams)</p>
+        <div class="row">
+          <!-- USER TEAM -->
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>Will Smith</h3>
+                <p>
+                Inesperadamente un robot se ve implicado en el crimen de un brillante científico y el detective Del Spooner (Will Smith) queda a cargo de la investigación, ayudado por la psicóloga de robots, la Dra. Susan Calvin (Bridget Moyna- han) y un robot programado para tener sentimientos, Sonny.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>Bridget Moynahan</h3>
+                <p>
+                  interpreta a la Dra. Susan Calvin, una psicóloga robótica de la empresa U.S. Robotics y Robopsychologist. En la película, el detective Del Spooner (interpretado por Will Smith) la contrata para ayudarlo a investigar la muerte de Dr. Alfred Lanning, uno de los fundadores de U.S. Robotics.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>Bruce Greenwood</h3>
+                <p>
+                  interpreta a Dr. Alfred Lanning, uno de los fundadores de U.S. Robotics y uno de los principales investigadores en robótica. En la película, Dr. Lanning muere en circunstancias sospechosas, y el detective Del Spooner trata de averiguar qué pasó.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/person.png" class="img-fluid rounded-circle w-50">
+                <h3>James Cromwell</h3>
+                <p>
+                interpreta a Víctor Kaleb, el presidente de U.S. Robotics. Kaleb es un hombre ambicioso y calculador, que quiere expandir el alcance de los robots en la sociedad, mientras el detective Del Spooner cree que los robots pueden ser peligrosos. Kaleb intenta impedir la investigación de Spooner.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                  <div class="p-4">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h3>Contact</h3>
+            <p>
+              Consectetur neque numquam autem animi?
+            </p>
+            <form action="">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-user input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-envelope input-group-text"></i>
+                </div>
+                <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <i class="fas fa-pencil-alt input-group-text"></i>
+                </div>
+                <textarea name="" cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send</button>
+            </form>
+          </div>
+          <div class="col-lg-3 align-self-center">
+            <img src="img/logo.png" alt="logo.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container p-3">
+        <div class="row text-center text-white">
+          <div class="col ml-auto">
+            <p>Copyright &copy; 2023</p>
+          </div>
+        </div>
+      </div>       
+    </footer>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

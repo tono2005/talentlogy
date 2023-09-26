@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="ejercicio3.css">
-  <title>Ejemplo de lista con elementos importantes</title>
-</head>
-<body>
-  <div class="destacado">
-    <h1>Lista de elementos importantes:</h1>
-    <ul>
-      <li>Elemento 1</li>
-      <li class="importante">Elemento 2</li>
-      <li class="importante">Elemento 3</li>
-      <li>Elemento 4</li>
-    </ul>
-  </div>
+  <head>
+    <link rel="stylesheet" type="text/css" href="ejercicio3.css" />
+    <title>Ejemplo de lista con elementos importantes</title>
+  </head>
+  <body>
+    <div class="destacado">
+      <h1>Reglas de css:</h1>
+      <ul>
+        <li class="importante">@counter-style</li>
+        Importamos una hoja de estilos CSS externa.
 
-  <script>
-    document.querySelectorAll('.destacado .importante li').forEach(function(elemento) {
-      elemento.style.color = 'red';
-    });
-  </script>
-</body>
+        <li class="importante">@import url("fichero.css")</li>
+        Importamos una hoja de estilos CSS sólo si condide con el media query
+        indicado.
+
+        <li class="importante">@import media query</li>
+        Importamos una hoja de estilos CSS sólo si condide con el media query
+        indicado.
+
+        <li class="importante">@import supports(condición)</li>
+        Importamos una hoja de estilos CSS sólo si el navegador soporta la
+        condición.
+
+        <li class="importante">@import layer(nombre)</li>
+        Importamos una hoja de estilos CSS y la colocamos en la capa nombre.
+
+        <li class="importante">@import layer()</li>
+        Importamos una hoja de estilos CSS y la colocamos en una nueva capa
+        anónima.
+        <li class="importante">@import "fichero.css"</li>
+        Importa el fichero.css utilizando un string
+
+      </ul>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twiter</title>
+    <link rel="icon" href="Img/twiter2.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="ejemplo1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script defer src="ejemplo1.css"></script>
+</head>
+<body class="grid-container">
+    <!-- parte superior de la página (central) -->
+    <header class="topheader">
+        <nav class="topnav">
+        <div class="contenedorBuscador">    
+            <div class="topnavBuscador">
+                <input type="text" placeholder="Buscar en twiter">
+                <button class="topnavBotonBuscar"><i class="fa-solid fa-magnifying-glass "></i></button>
+            </div>
+            <button class="open-menu">
+                <i class="fa-solid fa-bars fa-xl" style="color: white;"></i>
+            </button>
+        </div>    
+
+            <ul class="menu">
+                <button class="close-menu">
+                    <i class="fa-regular fa-circle-xmark fa-lg" style="color: white;"></i>
+                </button>
+                <li><a href="">Para ti</a></li>
+                <li><a href="">Tendencias</a></li>
+                <li><a href="">World Cup</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="">Deportes</a></li>
+                <li><a href="">Entretenimiento</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Seccion Centro -->
+    <section class="containerCenter">
+         <div>
+            
+            <div class="contenidoGrillaMedio">   
+                <div class="mundial">
+                <p id="tendencia">Copa Mundial FIFA</p>
+                <div class="vivo"><p id="directo">En Directo</p></div>
+                </div>
+                <div class="marcador">
+                    <div class="japon">
+                        <img src="img/bandera-de-japon.png" width="80"/>
+                        <p>Japón</p>
+                        <div class="gol">0</div>
+                    </div>
+                    <div class="croacia">
+                        <img src="img/croacia.png" width="80"/>
+                        <p>Croacia</p>
+                        <div class="gol">0</div>
+                    </div>
+                </div> 
+                <p id="tendencia">Tendencias en colombia</p>
+                <p id="nombre">Critiano Ronaldo</p>
+                <p id="tendencia">94 mil Tweets</p>
+                <p id="tendencia">Tendencias en colombia</p>
+                <p id="nombre">Paro nacional</p>
+                <p id="tendencia">Tendencias sobre <span>Pardo</span></p>
+                <p id="tendencia">Tendencias en colombia</p>
+                <p id="nombre">Pelé</p>
+                <p id="tendencia">163 mil Tweets</p>
+                <p id="tendencia">Tendencias en colombia</p>
+                <p id="nombre">Bellingham</p>
+                <p id="tendencia">211 mil Tweets</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Seccion Izquierda -->
+    <section class="containerLeft">
+    <div class="containerGridLeft">    
+        <div class="icono">
+            <i class="fa-brands fa-twitter fa-2xl"></i>
+            <div class="tituloNavegacion"><p></p></div>
+        </div>
+        <div class="icono">
+            <i class="fa-solid fa-hashtag fa-2xl"></i>
+            <div class="tituloNavegacion"><p id="explorar">Explorar</p></div>
+        </div>
+        <div class="icono">
+            <i class="fa-solid fa-gear fa-2xl"></i>
+            <div class="tituloNavegacion"><p id="configuracion">Configuración</p></div>
+
+        </div>
+    </div>
+    </section>
+
+
+
+    <!-- Seccion Derecha -->
+
+    <section class="containerRight">
+         <div class="containerGridRight" >
+            <div class="tarjeta">
+                <h2 id="tituloTarjeta">¿Eres nuevo en twtiter?</h2>
+                <p>Registrate para obtener tu propia cronología personalizada</p>
+                
+                <button id="boton"><i class="fa-brands fa-google fa-lg"></i> Registrarse con google</button>
+                <button id="boton"><i class="fa-brands fa-apple fa-xl"></i> Registrarse con apple</button>
+                <button id="boton"><i class="fa-solid fa-mobile-screen-button fa-lg"></i> registrarse con el número de teléfono</button>
+                
+                <p>Al registrarse aceptas los <span>Terminos de servicio</span> y la <span>política
+                 de privacidad, </span> incluida la política de <span>Uso de Cookies</span></p>
+            </div>
+            <p id="condiciones">Condiciones de Servicio, Política de Privacidad Politica de  cookies Accesibilidad
+               informacion de anuncios mas opcione...
+               <i class="fa-regular fa-copyright"></i> 2002, Twitter, Inc. 
+            </p>
+         </div>
+    </section>    
+    
+    
+    <!-- Sección del footer -->
+
+    <div class="f1"></div>
+    <footer class="footer">
+        <div class="parrafosFooter">
+            <h3>No te pierdas lo que está pasando</h3>
+            <p>Los usuarios de Twiter son los primeros en enterarse</p>
+        </div>
+    </footer>
+    <div class="f3">
+        <div class="botonesFooter">
+            <button id="botonIniciar">Iniciar sesión</button>
+            <button id="botonRegistrarse">Regístrate</button>
+        </div>
+    
+    </div>
+</body>
+</html>
